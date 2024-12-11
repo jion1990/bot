@@ -5,8 +5,8 @@
     ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/"
+      "src": "/botYOUR_BOT_TOKEN",
+      "dest": "/bot.js"
     }
   ]
 }
