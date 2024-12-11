@@ -5,7 +5,7 @@
     ],
   "routes": [
     {
-      "src": "/botYOUR_BOT_TOKEN",
+      "src": "/bot7905497608:AAFMpwd-SvRoGrSHRoE0VbZMyrFl_F18qTc",
       "dest": "/bot.js"
     }
   ]
