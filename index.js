@@ -9,7 +9,7 @@ const bot = new TelegramBot('7905497608:AAFMpwd-SvRoGrSHRoE0VbZMyrFl_F18qTc', { 
 const URL = 'https://bot-6hp9fwxab-jionbofis-projects.vercel.app';  // استبدل بهذا الرابط
 
 // إعداد Webhook
-bot.setWebHook(`${URL}/bot${YOUR_BOT_TOKEN}`);
+bot.setWebHook(`${URL}/bot${7905497608:AAFMpwd-SvRoGrSHRoE0VbZMyrFl_F18qTc}`);
 
 // إنشاء تطبيق Express
 const app = express();
