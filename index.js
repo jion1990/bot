@@ -6,10 +6,10 @@ const bodyParser = require('body-parser');
 const bot = new TelegramBot('7905497608:AAFMpwd-SvRoGrSHRoE0VbZMyrFl_F18qTc', { polling: false });
 
 // تحديد عنوان URL لتطبيق Vercel
-const URL = 'https://bot-6hp9fwxab-jionbofis-projects.vercel.app';  // استبدل بهذا الرابط
+const URL = 'https://bot-r6x8hneen-jionbofis-projects.vercel.app';  // استبدل بهذا الرابط
 
 // إعداد Webhook
-bot.setWebHook(`${URL}/bot${7905497608:AAFMpwd-SvRoGrSHRoE0VbZMyrFl_F18qTc}`);
+bot.setWebHook(`${URL}/bot7905497608:AAFMpwd-SvRoGrSHRoE0VbZMyrFl_F18qTc`);
 
 // إنشاء تطبيق Express
 const app = express();
@@ -18,7 +18,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // التعامل مع طلبات Webhook من Telegram
-app.post(`/bot${YOUR_BOT_TOKEN}`, (req, res) => {
+app.post(`/bot7905497608:AAFMpwd-SvRoGrSHRoE0VbZMyrFl_F18qTc`, (req, res) => {
     bot.processUpdate(req.body);
     res.sendStatus(200);
 });
@@ -41,4 +41,4 @@ bot.onText(/\/recommend/, (msg) => {
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
-});
+})
