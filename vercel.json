@@ -6,7 +6,7 @@
   "routes": [
     {
       "src": "/bot7905497608:AAFMpwd-SvRoGrSHRoE0VbZMyrFl_F18qTc",
-      "dest": "/bot.js"
+      "dest": "/index.js"
     }
   ]
 }
