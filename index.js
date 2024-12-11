@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const bot = new TelegramBot('7905497608:AAFMpwd-SvRoGrSHRoE0VbZMyrFl_F18qTc', { polling: false });
 
 // تحديد عنوان URL لتطبيق Vercel
-const URL = 'https://bot-r6x8hneen-jionbofis-projects.vercel.app';  // استبدل بهذا الرابط
+const URL = 'https://bot-lovat-alpha.vercel.app';  // استبدل بهذا الرابط
 
 // إعداد Webhook
 bot.setWebHook(`${URL}/bot7905497608:AAFMpwd-SvRoGrSHRoE0VbZMyrFl_F18qTc`);
