@@ -33,7 +33,8 @@ bot.onText(/\/start/, (msg) => {
 // عند طلب التوصيات
 bot.onText(/\/recommend/, (msg) => {
     let response = "إليك بعض التوصيات:\n";
-    response += `1. [هاتف ذكي](https://s.click.aliexpress.com/e/_example1)\n`;
+    response += `1. [High Speed USB 3.0 Pendrive 64GB 32GB Memoria USB Memory Stick Pen Drive USB Flash Drives Waterproof U Disk 128GB 512GB ITB 2TB
+Price Now: USD 1.14 (Original price: USD 2.28,  50% off)](https://s.click.aliexpress.com/e/_EuEtQM4)\n`;
     response += `2. [سماعات بلوتوث](https://s.click.aliexpress.com/e/_example2)\n`;
     response += `3. [كاميرا رقمية](https://s.click.aliexpress.com/e/_example3)\n`;
     bot.sendMessage(msg.chat.id, response, { parse_mode: 'Markdown' });
