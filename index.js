@@ -13,10 +13,11 @@ bot.setWebHook(`${URL}/bot7905497608:AAFMpwd-SvRoGrSHRoE0VbZMyrFl_F18qTc`);
 
 // إنشاء تطبيق Express
 const app = express();
+app.use(express.static('public'));
 
 // معالجة بيانات JSON الواردة من Telegram
 app.use(bodyParser.json());
-app.use(express.static('public'));
+
 
 // التعامل مع طلبات Webhook من Telegram
 app.post(`/bot7905497608:AAFMpwd-SvRoGrSHRoE0VbZMyrFl_F18qTc`, (req, res) => {
