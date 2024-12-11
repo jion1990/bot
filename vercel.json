@@ -3,16 +3,10 @@
     "builds": [
       { "src": "*.js", "use": "@vercel/node" }
     ],
-    "routes": [
-        {
-          "src": "/(.*)",
-          "methods": ["POST" ,"GET","PUT","DELETE","PATCH","OPTIONS"],
-      "headers": {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "POST, OPTIONS,GET",
-        "Access-Control-Allow-Headers": "Content-Type"
-      },
+  "routes": [
+    {
+      "src": "/bot7905497608:AAFMpwd-SvRoGrSHRoE0VbZMyrFl_F18qTc",
       "dest": "/"
-        }
-    ]
-  }
+    }
+  ]
+}
