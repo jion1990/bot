@@ -10,11 +10,11 @@
     "axios": "^1.7.9",
     "node-telegram-bot-api": "github:yagop/node-telegram-bot-api",
     "openai": "^4.76.1",
-    "express": "^4.18.1",
-   
+    "express": "^4.18.1"
+    
   },
   "engines": {
-    "node": ">=22.12.0"
+    "node": ">=16.0.0"
   },
   "keywords": [],
   "author": "",
