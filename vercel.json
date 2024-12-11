@@ -1,15 +1,18 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "bot.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/bot(.*)",
-      "dest": "/bot.js"
-    }
-  ]
-}
+    "version":2,
+    "builds": [
+      { "src": "*.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+        {
+          "src": "/(.*)",
+          "methods": ["POST" ,"GET","PUT","DELETE","PATCH","OPTIONS"],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "POST, OPTIONS,GET",
+        "Access-Control-Allow-Headers": "Content-Type"
+      },
+      "dest": "/"
+        }
+    ]
+  }
