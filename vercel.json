@@ -3,12 +3,10 @@
     "builds": [
       { "src": "*.js", "use": "@vercel/node" }
     ],
-    "routes": [
-        {
-          "src": "/(.*)",
-       
-      },
-          "dest": "/"
+  "routes": [
+    {
+      "src": "/botYOUR_BOT_TOKEN",
+      "dest": "/bot.js"
     }
   ]
 }
