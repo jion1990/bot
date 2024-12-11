@@ -16,7 +16,7 @@ const app = express();
 
 // معالجة بيانات JSON الواردة من Telegram
 app.use(bodyParser.json());
-app.use(express.static('public','index.html'));
+app.use(express.static('public'));
 
 // التعامل مع طلبات Webhook من Telegram
 app.post(`/bot7905497608:AAFMpwd-SvRoGrSHRoE0VbZMyrFl_F18qTc`, (req, res) => {
