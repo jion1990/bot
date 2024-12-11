@@ -1,7 +1,7 @@
 {
   "name": "bottlgrame",
   "version": "1.0.0",
-  "description": "Telegram bot with EJS integration",
+  "description": "/",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
