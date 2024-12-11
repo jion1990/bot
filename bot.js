@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 
 const TOKEN = '7905497608:AAFMpwd-SvRoGrSHRoE0VbZMyrFl_F18qTc'; // استبدل بـ Token الخاص بك
-const URL = 'https://bot-lovat-alpha.vercel.app'; // استبدل باسم النطاق الخاص بتطبيقك في Vercel
+const URL = 'https://bot-hx82j9cq7-jionbofis-projects.vercel.app'; // استبدل باسم النطاق الخاص بتطبيقك في Vercel
 
 const bot = new TelegramBot(TOKEN, { webHook: true });
 const app = express();
